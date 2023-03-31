@@ -22,7 +22,7 @@ class Photo(CommonModel):
     )
 
     def __str__(self) -> str:
-        return "Photo File"
+        return "Photo Files"
 
 
 class Video(CommonModel):
